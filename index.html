@@ -8,9 +8,16 @@
 </head>
 <body>
     <h2>Pendulum Simulation</h2>
-    <div class="pendulum-container" id="pendulum">
-        <div class="rod"></div>
-        <div class="bob"></div>
+    <div class="container">
+        <div class="pendulum-container" id="pendulum">
+            <div class="rod"></div>
+            <div class="bob"></div>
+        </div>
+    </div>
+    <div class="controls">
+        <button onclick="increaseSpeed()">Increase Speed</button>
+        <button onclick="decreaseSpeed()">Decrease Speed</button>
+        <button onclick="resetPendulum()">Reset</button>
     </div>
     <script src="script.js"></script>
 </body>
